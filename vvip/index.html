@@ -135,13 +135,13 @@
 									</div>
 									<div class="field">
 										<div class="form-check form-check-inline">
-										    <input class="form-check-input" type="radio" name="attending" id="attend" value="yes" onclick="showblock()">
+										    <input class="form-check-input" type="radio" name="vvip-attending" id="attend" value="yes" onclick="showblock()">
 											  <label class=" form-check-label" for="attend">
 											    สามารถเข้าร่วมงานได้
 											  </label>
 											</div>
 											<div class="form-check form-check-inline">
-											  <input class="form-check-input" type="radio" name="attending" id="no-attend" value="no" onclick="showblock()">
+											  <input class="form-check-input" type="radio" name="vvip-attending" id="no-attend" value="no" onclick="showblock()">
 											  <label class="form-check-label" for="no-attend">
 											    ไม่สามารถเข้าร่วมงานได้
 											  </label>
@@ -158,7 +158,7 @@
 												
 													<div class="form-check form-check-inline" > 
 
-															<input class="form-check-input" type="hidden" name="attending-morning" value="no">
+															<input class="form-check-input" type="checkbox" name="attending-morning" value="no">
 															<input class="form-check-input" type="checkbox" name="attending-morning" value="yes" id="morning" onclick="milliValidation()" >
 														  <label class="form-check-label" for="morning">
 														    เช้า 
@@ -211,7 +211,7 @@
 														    
 														  </label>
 														  	<div class="field select half">
-														      <select name="guests-evening" class="form-select wide field" id="guests-party">
+														      <select name="guests-party" class="form-select wide field" id="guests-party">
 				                           <option disabled selected value data-display="จำนวนผู้เข้าร่วมงาน" hidden>จำนวนคน (รวมตัวท่าน)</option>
 				                            <option value="1">1 ท่าน</option>
 				                            <option value="2">2 ท่าน</option>
